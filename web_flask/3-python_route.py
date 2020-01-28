@@ -30,7 +30,7 @@ def py_text(text='is cool'):
     """Display Python and a text"""
     if text is not 'is cool':
         text = text.replace('_', ' ')
-        return 'python %s' % text
+        return 'Python %s' % text
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
